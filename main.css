@@ -1,0 +1,33 @@
+  html {
+    box-sizing: border-box; 
+    margin: 0;
+    background: linear-gradient(rgba(35, 35, 61, 0.5),rgba(35, 35, 61, 0.5)),
+    url("images/earth_bg.jpg");
+
+  }
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    /* border:1px solid red; */
+    align-items: center;
+    /* height: 200px; */
+}
+
+.crystal{
+    border:1px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+img{
+    width: 50px;
+}
+
+#lost{
+color  :white;
+}
+
+#win{
+color: white;
+}
