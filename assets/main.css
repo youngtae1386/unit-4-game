@@ -1,30 +1,37 @@
 html {
-    box-sizing: border-box; 
+    background-position: top;
+    padding: 50px;
+    box-sizing: content-box;
     margin: 0;
-    background: linear-gradient(rgba(35, 35, 61, 0.5),rgba(35, 35, 61, 0.5)),
-    url("images/earth_bg.jpg");
-
-  }
-
-.crystals{
-    display: flex;
-    justify-content: space-around;
-    /* border:1px solid red; */
-    align-items: center;
-    /* height: 200px; */
+    background: linear-gradient(rgba(57, -24, 17, 0.5),rgba(-97, -6, 89, -0.5)), url(../images/earth_bg.jpg);
+    background-size: cover;
+    margin: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
 }
 
 .crystal{
-    border:1px solid green;
+    border: 4px solid dodgerblue;
     height: 220px;
     width: 200px;
     justify-content: space-between; 
     padding: 1px;
     align-self: center;
+    box-shadow: 30px 22px 20px rgba(20, 30, 51, 1);
 }
-
-img{
-    width: 50px;
+.crystal:hover{
+    box-shadow: 10px 10px 20px rgba(20, 33, 8, 1);
+    transform: translate(5px, 15px);
+    cursor: pointer;
+    transition: box-showdow 500ms, transform 500ms;
+}
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    width: 15px;
 }
 
 #lost{
@@ -41,4 +48,13 @@ p{
 
 body{
     background: transparent;
+}
+
+li{
+    color: skyblue;
+    font-size:30px;
+}
+
+h1{
+    font: skyblue;
 }

@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My Awsome Crystal Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-    ></script>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\main.css" />
-  </head>
-  <body>
-    <!-- Note that this div is now empty. We will fill it dynamically -->
 
-   
-    <div class="crystals">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My Awsome Crystal Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets\main.css" />
+</head>
 
-    </div>
-    <p id="result"></p>
-    <p id="losses">losses:</p>
-    <p id="wins">wins:</p>
-    <!-- JAVASCRIPT  -->
-    <script type="text/javascript" src="assets\main.js"></script>
-    <!-- ========================================= -->
-  </body>
+<body>
+  <h1><mark>Welcome to Crstyal Game!</mark></h1>
+  <br/>
+  <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the <em>Random Generator</em>.</li>
+			<li>You lose the game if your total score goes above the <em>Random Generator</em>.</li>
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+      <li>Each time when the game starts, the game will change the values of each crystal.</li>
+      <li>HAVE FUN!!!!</li>
+      <br />
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+  <h2 class="trackingScores">
+    <p id="random_Numb">Random Generator: 0 </p>
+    <p id="losses">losses: 0 </p>
+    <p id="wins">wins: 0 </p>
+    <br />
+    <p id="numberofclick">Total number of Click(s): 0 </p>
+    <p id="counter">Total Scores: 0 </p>
+  </h2>
+  <div class="crystals">
+
+  </div>
+
+  <!-- JAVASCRIPT  -->
+  <script type="text/javascript" src="assets\main.js"></script>
+  <!-- ========================================= -->
+</body>
+
 </html>
