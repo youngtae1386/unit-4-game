@@ -1,4 +1,4 @@
-  html {
+html {
     box-sizing: border-box; 
     margin: 0;
     background: linear-gradient(rgba(35, 35, 61, 0.5),rgba(35, 35, 61, 0.5)),
@@ -16,8 +16,11 @@
 
 .crystal{
     border:1px solid green;
-    height: 200px;
+    height: 220px;
     width: 200px;
+    justify-content: space-between; 
+    padding: 1px;
+    align-self: center;
 }
 
 img{
@@ -30,4 +33,12 @@ color  :white;
 
 #win{
 color: white;
+}
+
+p{
+    color:white;
+}
+
+body{
+    background: transparent;
 }

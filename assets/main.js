@@ -4,9 +4,6 @@ var lost = 0;
 var win = 0;
 var previous = 0;
 
-// var startCrystalgame = function() {
-//   $(".crystals").empty();
-// }
   var images = [
     "images/yellow.png",
     "images/red.png",
