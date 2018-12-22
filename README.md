@@ -6,7 +6,7 @@ Crystal Game
 * [`Crystal Game`](https://youngtae1386.github.io/unit-4-game/)
 
 ## Instructions
-* Page load with 4 different type of crystals.  **red**,**blue**,**green**,**yello**.
+* Page load with 4 different type of crystals.  **red**,**blue**,**green**,**yellow**.
 * By clicking on a crystal, you will *add* a specific amount of points to your *total score*.
 * You win the game by matching your total score to the Random Generator. 
 * You lose the game if your total score goes above the Random Generator 
